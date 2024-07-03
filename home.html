@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>www.forms.com</title>
+    <link rel="stylesheet" href="form.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+    <div class="nav">
+        <div class="logo">
+            <i class="fa-solid fa-leaf fa-2x"></i>
+        </div>
+        <div class="nav-search">
+            <input type="text" placeholder="Search...">
+            <button onclick="navigateToForm()"><i class="fa-solid fa-magnifying-glass"></i></button>
+        </div>
+        <nav>
+            <ul>
+                <li><a onclick="location.href='home.html'">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a onclick="location.href='next_pg.html'">Services</a></li>
+                <li><a href="#">Contact</a></li>
+                
+            </ul>
+        </nav>
+    </div>
+    <div class="text">
+        <div class="text1">POWERFUL FORMS<br> GET IT DONE.</div>
+        <div class="text2">
+            We believe the right form makes all the difference. Go from busywork to less work with powerful forms that use conditional logic, accept payments, generate reports, and automate workflows.
+        </div>
+        <div class="img1">
+            <img src="C:\Users\arfas\Downloads\img11.jpg" alt="img1" width="500px">
+        </div>
+        <div class="text3"></div>
+        <div class="fbutton">
+            <button onclick="navigateToForm()">Get Started</button>
+        </div>
+    </div>
+    <script>
+        function navigateToForm() {
+            window.location.href = 'login.html';
+        }
+    </script>
+</body>
+</html>
