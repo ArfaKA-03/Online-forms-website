@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>www.LeafForms.com</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+    <div class="nav">
+        <div class="logo">
+            <i class="fa-solid fa-leaf fa-2x"></i>
+        </div>
+        <div class="nav-search">
+            <input type="text" placeholder="Search...">
+            <button>
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+        </div>
+        <nav>
+            <ul>
+                <li><a onclick="location.href='index.html'">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a onclick="location.href='loginPage.html'">Services</a></li>
+                <li><a onclick="location.href='contact.html'">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="container">
+        <div class="form-type-selection">
+            <h1>Select Fields to Collect:</h1>
+            <select id="field-type">
+                <option value="Select">Select from dropdown</option>
+                <option value="name">Name</option>
+                <option value="email">Email</option>
+                <option value="phone">Phone Number</option>
+                <option value="address">Address</option>
+            </select>
+            <button class="add-btn" onclick="addField()">Add Field</button>
+        </div>
+
+        <form id="generated-form">
+            <h2>Preview:</h2>
+            <div id="fields-container"></div>
+            <button class="share-btn" type="button" onclick="shareForm()">Share</button>
+        </form>
+        <div id="form-link-container"></div>
+    </div>
+
+    <script src="script.js"></script>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

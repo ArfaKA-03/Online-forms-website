@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>www.LeafForms.com</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+    <div class="nav">
+        <div class="logo">
+            <i class="fa-solid fa-leaf fa-2x"></i>
+        </div>
+        <div class="nav-search">
+            <input type="text" placeholder="Search...">
+            <button>
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="loginPage.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="quiz-generator-container">
+        <h1>Question Generator</h1>
+        <div class="quiz-type-selection">
+            <label for="question-type">Select Question Type:</label>
+            <select id="question-type">
+                <option value="mcq">Multiple Choice Question</option>
+                <option value="detailed">Detailed Answer</option>
+            </select>
+        </div>
+        <form id="quiz-form">
+            <button type="button" id="add-question-btn">Add Question</button>
+            <div id="questions-container"></div>
+            <button type="button" id="share-quiz-btn">Share</button>
+        </form>
+        <div id="quiz-link-container"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
