@@ -4,3 +4,14 @@ An interactive web application that allows users to create, customize, and share
 ---
 
 ## 🚀 Features
+- Create and manage online forms
+- Support for multiple form types:
+  - General information forms
+  - Yes/No surveys
+  - Quiz-based forms
+- Add and edit questions dynamically
+- Multiple question types support
+- Responsive and user-friendly UI
+- Form submission and response storage
+- Shareable forms for collecting responses
+- View submitted responses
