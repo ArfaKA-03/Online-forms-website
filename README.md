@@ -16,5 +16,18 @@ An interactive web application that allows users to create, customize, and share
 - Shareable forms for collecting responses
 - View submitted responses
 ---
+### Frontend
+- HTML  
+- CSS  
+- JavaScript  
+- React.js  
+
+### Backend
+- Node.js  
+
+### Database
+- MySQL  
+- JDBC
+---
 ## Screenshots
 []
