@@ -22,8 +22,6 @@ An interactive web application that allows users to create, customize, and share
 - JavaScript  
 - React.js  
 
-### Backend
-- Node.js  
 
 ### Database
 - MySQL  
