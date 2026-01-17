@@ -20,8 +20,6 @@ An interactive web application that allows users to create, customize, and share
 - HTML  
 - CSS  
 - JavaScript  
-- React.js  
-
 
 ### Database
 - MySQL  
